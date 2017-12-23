@@ -11,8 +11,18 @@ This Vagrantfile purpose is to quickly setup an Ubuntu box with the VMware Cross
 ### Usage
 
 1. Download or clone this repository
-2. Extract the utility and put it in the `xvm` folder (can be tweaked if needed. See point 3)
-3. Change the variables in the Vagrantfile according to your needs
+2. Extract the utility and put it in the folder (default folder name is `xvm`. Can be tweaked if needed. See point 3)
+
+```Bash
+├───xvm
+│   └xvm-1.0.jar
+├─.gitignore
+├─LICENSE
+├─README.md
+├─Vagrantfile
+```
+
+3. Change the variables in the `Vagrantfile` according to your needs
 
 ```Ruby
 ## Infrastructure
