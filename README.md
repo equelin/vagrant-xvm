@@ -11,7 +11,7 @@ This Vagrantfile purpose is to quickly setup an Ubuntu box with the VMware Cross
 ### Usage
 
 1. Download or clone this repository
-2. Extract the utility and put it in the folder (default folder name is `xvm`. Can be tweaked if needed. See point 3)
+2. Extract the utility and put it in the Vagrant folder (default folder name is `xvm`. Can be tweaked if needed. See point 3). The folder tree should looks like this:
 
 ```Bash
 ├───xvm
@@ -57,7 +57,7 @@ Bringing machine 'default' up with 'virtualbox' provider...
 ...
 ```
 
-5. Check that everything goes well by connecting to the web interface at the url `http://localhost:8080`
+5. Check that everything goes well by connecting to the web interface at the url `http://localhost:8080` (modify the port according to your setup)
 6. Migrate your VM !
 
 # Author
